@@ -1,0 +1,43 @@
+.theme {
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    width: 3.6rem;
+    height: 1.9rem;
+
+    border-radius: 1rem;
+
+    background-color: var(--clr-primary);
+
+    margin: 1rem;
+    padding: 0.2rem;
+
+    display: flex;
+    overflow: hidden;
+
+    cursor: pointer;
+    
+    z-index: 1;
+}
+
+.toRight > * {
+    transform: translateX(100%);
+}
+
+.themeValue {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 1rem;
+    
+    background-color: var(--clr-secondary);
+    color: var(--clr-primary);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: .4s;
+    -webkit-transition: .4s;
+}

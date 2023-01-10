@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: rgb(30, 144, 255);
+    --clr-secondary: rgb(19, 19, 22);
+    --clr-ternary: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+    background-color: var(--clr-secondary);
+    color: var(--clr-ternary);
+}
+
+::selection {
+    background-color: var(--clr-ternary);
+    color: var(--clr-secondary);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
